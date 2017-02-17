@@ -1,0 +1,15 @@
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Cflags: -I${includedir}
+Libs: -L${libdir} -ulibisup
+
+Name: ulibisup
+Description: universal isup library
+Version: @VERSION@
+Requires: ulibmtp3
+
+
