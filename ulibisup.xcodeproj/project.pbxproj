@@ -7,9 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65FC0311E57A40900305C3E /* UMLayerISUP.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC02F1E57A40900305C3E /* UMLayerISUP.h */; };
+		A65FC0321E57A40900305C3E /* UMLayerISUP.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC0301E57A40900305C3E /* UMLayerISUP.m */; };
+		A65FC0351E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC0331E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h */; };
+		A65FC0391E57A59600305C3E /* UMISUP_mtpPause.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC0371E57A59600305C3E /* UMISUP_mtpPause.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65FC03A1E57A59600305C3E /* UMISUP_mtpPause.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC0381E57A59600305C3E /* UMISUP_mtpPause.m */; };
+		A65FC03D1E57A5AC00305C3E /* UMISUP_mtpResume.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC03B1E57A5AC00305C3E /* UMISUP_mtpResume.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65FC03E1E57A5AC00305C3E /* UMISUP_mtpResume.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC03C1E57A5AC00305C3E /* UMISUP_mtpResume.m */; };
+		A65FC0411E57A5B600305C3E /* UMISUP_mtpStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC03F1E57A5B600305C3E /* UMISUP_mtpStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65FC0421E57A5B600305C3E /* UMISUP_mtpStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC0401E57A5B600305C3E /* UMISUP_mtpStatus.m */; };
+		A65FC0451E57A5C000305C3E /* UMISUP_mtpTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC0431E57A5C000305C3E /* UMISUP_mtpTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65FC0461E57A5C000305C3E /* UMISUP_mtpTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC0441E57A5C000305C3E /* UMISUP_mtpTransfer.m */; };
+		A65FC04F1E57B65700305C3E /* ulibasn1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC0481E57B65700305C3E /* ulibasn1.framework */; };
+		A65FC0501E57B65700305C3E /* ulib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC0491E57B65700305C3E /* ulib.framework */; };
+		A65FC0511E57B65700305C3E /* sctp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC04A1E57B65700305C3E /* sctp.framework */; };
+		A65FC0521E57B65700305C3E /* ulibsctp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC04B1E57B65700305C3E /* ulibsctp.framework */; };
+		A65FC0531E57B65700305C3E /* ulibm2pa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC04C1E57B65700305C3E /* ulibm2pa.framework */; };
+		A65FC0541E57B65700305C3E /* ulibmtp3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65FC04D1E57B65700305C3E /* ulibmtp3.framework */; };
+		A65FC05C1E57B78300305C3E /* UMISUP_CallState.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC05A1E57B78300305C3E /* UMISUP_CallState.h */; };
+		A65FC05D1E57B78300305C3E /* UMISUP_CallState.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC05B1E57B78300305C3E /* UMISUP_CallState.m */; };
+		A65FC0601E57BA8600305C3E /* UMISUP_CallState_Idle.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC05E1E57BA8600305C3E /* UMISUP_CallState_Idle.h */; };
+		A65FC0611E57BA8600305C3E /* UMISUP_CallState_Idle.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC05F1E57BA8600305C3E /* UMISUP_CallState_Idle.m */; };
+		A65FC0641E57CAEF00305C3E /* UMISUP_Link.h in Headers */ = {isa = PBXBuildFile; fileRef = A65FC0621E57CAEF00305C3E /* UMISUP_Link.h */; };
+		A65FC0651E57CAEF00305C3E /* UMISUP_Link.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FC0631E57CAEF00305C3E /* UMISUP_Link.m */; };
 		A6BB5A451E57A0D500679A73 /* ulibisup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB5A3B1E57A0D500679A73 /* ulibisup.framework */; };
 		A6BB5A4A1E57A0D500679A73 /* ulibisupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BB5A491E57A0D500679A73 /* ulibisupTests.m */; };
 		A6BB5A4C1E57A0D500679A73 /* ulibisup.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BB5A3E1E57A0D500679A73 /* ulibisup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6BFE4AA1E585557004DC68D /* UMISUP_Circuit.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BFE4A81E585557004DC68D /* UMISUP_Circuit.h */; };
+		A6BFE4AB1E585557004DC68D /* UMISUP_Circuit.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BFE4A91E585557004DC68D /* UMISUP_Circuit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +48,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A65FC02F1E57A40900305C3E /* UMLayerISUP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLayerISUP.h; sourceTree = "<group>"; };
+		A65FC0301E57A40900305C3E /* UMLayerISUP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLayerISUP.m; sourceTree = "<group>"; };
+		A65FC0331E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLayerISUPApplicationContextProtocol.h; sourceTree = "<group>"; };
+		A65FC0371E57A59600305C3E /* UMISUP_mtpPause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_mtpPause.h; sourceTree = "<group>"; };
+		A65FC0381E57A59600305C3E /* UMISUP_mtpPause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpPause.m; sourceTree = "<group>"; };
+		A65FC03B1E57A5AC00305C3E /* UMISUP_mtpResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_mtpResume.h; sourceTree = "<group>"; };
+		A65FC03C1E57A5AC00305C3E /* UMISUP_mtpResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpResume.m; sourceTree = "<group>"; };
+		A65FC03F1E57A5B600305C3E /* UMISUP_mtpStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_mtpStatus.h; sourceTree = "<group>"; };
+		A65FC0401E57A5B600305C3E /* UMISUP_mtpStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpStatus.m; sourceTree = "<group>"; };
+		A65FC0431E57A5C000305C3E /* UMISUP_mtpTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_mtpTransfer.h; sourceTree = "<group>"; };
+		A65FC0441E57A5C000305C3E /* UMISUP_mtpTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpTransfer.m; sourceTree = "<group>"; };
+		A65FC0481E57B65700305C3E /* ulibasn1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibasn1.framework; path = /Users/afink/development/git/ulibsccp/../../../../../Library/Frameworks/ulibasn1.framework; sourceTree = "<absolute>"; };
+		A65FC0491E57B65700305C3E /* ulib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulib.framework; path = /Library/Frameworks/ulib.framework; sourceTree = "<absolute>"; };
+		A65FC04A1E57B65700305C3E /* sctp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sctp.framework; path = /Library/Frameworks/sctp.framework; sourceTree = "<absolute>"; };
+		A65FC04B1E57B65700305C3E /* ulibsctp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibsctp.framework; path = /Library/Frameworks/ulibsctp.framework; sourceTree = "<absolute>"; };
+		A65FC04C1E57B65700305C3E /* ulibm2pa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibm2pa.framework; path = /Library/Frameworks/ulibm2pa.framework; sourceTree = "<absolute>"; };
+		A65FC04D1E57B65700305C3E /* ulibmtp3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibmtp3.framework; path = /Library/Frameworks/ulibmtp3.framework; sourceTree = "<absolute>"; };
+		A65FC05A1E57B78300305C3E /* UMISUP_CallState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_CallState.h; sourceTree = "<group>"; };
+		A65FC05B1E57B78300305C3E /* UMISUP_CallState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_CallState.m; sourceTree = "<group>"; };
+		A65FC05E1E57BA8600305C3E /* UMISUP_CallState_Idle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_CallState_Idle.h; sourceTree = "<group>"; };
+		A65FC05F1E57BA8600305C3E /* UMISUP_CallState_Idle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_CallState_Idle.m; sourceTree = "<group>"; };
+		A65FC0621E57CAEF00305C3E /* UMISUP_Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_Link.h; sourceTree = "<group>"; };
+		A65FC0631E57CAEF00305C3E /* UMISUP_Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_Link.m; sourceTree = "<group>"; };
 		A6BB5A3B1E57A0D500679A73 /* ulibisup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ulibisup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BB5A3E1E57A0D500679A73 /* ulibisup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ulibisup.h; sourceTree = "<group>"; };
 		A6BB5A3F1E57A0D500679A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BB5A441E57A0D500679A73 /* ulibisupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ulibisupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BB5A491E57A0D500679A73 /* ulibisupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ulibisupTests.m; sourceTree = "<group>"; };
 		A6BB5A4B1E57A0D500679A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BFE4A81E585557004DC68D /* UMISUP_Circuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_Circuit.h; sourceTree = "<group>"; };
+		A6BFE4A91E585557004DC68D /* UMISUP_Circuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_Circuit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65FC0541E57B65700305C3E /* ulibmtp3.framework in Frameworks */,
+				A65FC0521E57B65700305C3E /* ulibsctp.framework in Frameworks */,
+				A65FC0501E57B65700305C3E /* ulib.framework in Frameworks */,
+				A65FC04F1E57B65700305C3E /* ulibasn1.framework in Frameworks */,
+				A65FC0511E57B65700305C3E /* sctp.framework in Frameworks */,
+				A65FC0531E57B65700305C3E /* ulibm2pa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,9 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65FC0471E57B64800305C3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65FC0481E57B65700305C3E /* ulibasn1.framework */,
+				A65FC0491E57B65700305C3E /* ulib.framework */,
+				A65FC04A1E57B65700305C3E /* sctp.framework */,
+				A65FC04B1E57B65700305C3E /* ulibsctp.framework */,
+				A65FC04C1E57B65700305C3E /* ulibm2pa.framework */,
+				A65FC04D1E57B65700305C3E /* ulibmtp3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6BB5A311E57A0D500679A73 = {
 			isa = PBXGroup;
 			children = (
+				A65FC0471E57B64800305C3E /* Frameworks */,
 				A6BB5A3D1E57A0D500679A73 /* ulibisup */,
 				A6BB5A481E57A0D500679A73 /* ulibisupTests */,
 				A6BB5A3C1E57A0D500679A73 /* Products */,
@@ -72,7 +142,26 @@
 			isa = PBXGroup;
 			children = (
 				A6BB5A3E1E57A0D500679A73 /* ulibisup.h */,
+				A65FC0331E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h */,
 				A6BB5A3F1E57A0D500679A73 /* Info.plist */,
+				A65FC02F1E57A40900305C3E /* UMLayerISUP.h */,
+				A65FC0301E57A40900305C3E /* UMLayerISUP.m */,
+				A65FC0621E57CAEF00305C3E /* UMISUP_Link.h */,
+				A65FC0631E57CAEF00305C3E /* UMISUP_Link.m */,
+				A6BFE4A81E585557004DC68D /* UMISUP_Circuit.h */,
+				A6BFE4A91E585557004DC68D /* UMISUP_Circuit.m */,
+				A65FC0431E57A5C000305C3E /* UMISUP_mtpTransfer.h */,
+				A65FC0441E57A5C000305C3E /* UMISUP_mtpTransfer.m */,
+				A65FC0371E57A59600305C3E /* UMISUP_mtpPause.h */,
+				A65FC0381E57A59600305C3E /* UMISUP_mtpPause.m */,
+				A65FC03B1E57A5AC00305C3E /* UMISUP_mtpResume.h */,
+				A65FC03C1E57A5AC00305C3E /* UMISUP_mtpResume.m */,
+				A65FC03F1E57A5B600305C3E /* UMISUP_mtpStatus.h */,
+				A65FC0401E57A5B600305C3E /* UMISUP_mtpStatus.m */,
+				A65FC05A1E57B78300305C3E /* UMISUP_CallState.h */,
+				A65FC05B1E57B78300305C3E /* UMISUP_CallState.m */,
+				A65FC05E1E57BA8600305C3E /* UMISUP_CallState_Idle.h */,
+				A65FC05F1E57BA8600305C3E /* UMISUP_CallState_Idle.m */,
 			);
 			path = ulibisup;
 			sourceTree = "<group>";
@@ -93,7 +182,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65FC0391E57A59600305C3E /* UMISUP_mtpPause.h in Headers */,
+				A6BFE4AA1E585557004DC68D /* UMISUP_Circuit.h in Headers */,
+				A65FC0451E57A5C000305C3E /* UMISUP_mtpTransfer.h in Headers */,
+				A65FC03D1E57A5AC00305C3E /* UMISUP_mtpResume.h in Headers */,
+				A65FC0641E57CAEF00305C3E /* UMISUP_Link.h in Headers */,
 				A6BB5A4C1E57A0D500679A73 /* ulibisup.h in Headers */,
+				A65FC0601E57BA8600305C3E /* UMISUP_CallState_Idle.h in Headers */,
+				A65FC0411E57A5B600305C3E /* UMISUP_mtpStatus.h in Headers */,
+				A65FC0351E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h in Headers */,
+				A65FC0311E57A40900305C3E /* UMLayerISUP.h in Headers */,
+				A65FC05C1E57B78300305C3E /* UMISUP_CallState.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65FC0651E57CAEF00305C3E /* UMISUP_Link.m in Sources */,
+				A65FC0421E57A5B600305C3E /* UMISUP_mtpStatus.m in Sources */,
+				A65FC0321E57A40900305C3E /* UMLayerISUP.m in Sources */,
+				A65FC0611E57BA8600305C3E /* UMISUP_CallState_Idle.m in Sources */,
+				A6BFE4AB1E585557004DC68D /* UMISUP_Circuit.m in Sources */,
+				A65FC05D1E57B78300305C3E /* UMISUP_CallState.m in Sources */,
+				A65FC0461E57A5C000305C3E /* UMISUP_mtpTransfer.m in Sources */,
+				A65FC03A1E57A59600305C3E /* UMISUP_mtpPause.m in Sources */,
+				A65FC03E1E57A5AC00305C3E /* UMISUP_mtpResume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +430,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ulibisup/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -342,6 +454,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ulibisup/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -395,6 +511,7 @@
 				A6BB5A511E57A0D500679A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6BB5A521E57A0D500679A73 /* Build configuration list for PBXNativeTarget "ulibisupTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +520,7 @@
 				A6BB5A541E57A0D500679A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

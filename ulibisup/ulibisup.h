@@ -6,14 +6,19 @@
 //  Copyright © 2017 Andreas Fink. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <ulib/ulib.h>
+#import <ulibsctp/ulibsctp.h>
+#import <ulibm2pa/ulibm2pa.h>
+#import <ulibmtp3/ulibmtp3.h>
 
-//! Project version number for ulibisup.
-FOUNDATION_EXPORT double ulibisupVersionNumber;
-
-//! Project version string for ulibisup.
-FOUNDATION_EXPORT const unsigned char ulibisupVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <ulibisup/PublicHeader.h>
-
+#import "UMLayerISUP.h"
+#import "UMSCCP_UserProtocol.h"
+#import "UMSCCP_sccpNUnitdata.h"
+#import "UMSCCP_Defs.h"
+#import "UMSCCP_mtpTransfer.h"
+#import "UMLayerISUPApplicationContextProtocol.h"
+#import "UMISUP_mtpTransfer.h"
+#import "UMISUP_mtpPause.h"
+#import "UMISUP_mtpResume.h"
+#import "UMISUP_mtpStatus.h"
 
