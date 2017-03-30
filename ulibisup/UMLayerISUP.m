@@ -46,7 +46,9 @@
                 dpc:(UMMTP3PointCode *)dpc
                  si:(int)si
                  ni:(int)ni
+        linksetName:(NSString *)linksetName
             options:(NSDictionary *)options
+
 {
     UMISUP_mtpTransfer *task = [[UMISUP_mtpTransfer alloc]initForISUP:self
                                                                    mtp3:mtp3Layer
