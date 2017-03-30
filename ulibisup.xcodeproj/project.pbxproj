@@ -59,7 +59,7 @@
 		A65FC0401E57A5B600305C3E /* UMISUP_mtpStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpStatus.m; sourceTree = "<group>"; };
 		A65FC0431E57A5C000305C3E /* UMISUP_mtpTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMISUP_mtpTransfer.h; sourceTree = "<group>"; };
 		A65FC0441E57A5C000305C3E /* UMISUP_mtpTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMISUP_mtpTransfer.m; sourceTree = "<group>"; };
-		A65FC0481E57B65700305C3E /* ulibasn1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibasn1.framework; path = /Users/afink/development/git/ulibsccp/../../../../../Library/Frameworks/ulibasn1.framework; sourceTree = "<absolute>"; };
+		A65FC0481E57B65700305C3E /* ulibasn1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibasn1.framework; path = /Library/Frameworks/ulibasn1.framework; sourceTree = "<absolute>"; };
 		A65FC0491E57B65700305C3E /* ulib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulib.framework; path = /Library/Frameworks/ulib.framework; sourceTree = "<absolute>"; };
 		A65FC04A1E57B65700305C3E /* sctp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sctp.framework; path = /Library/Frameworks/sctp.framework; sourceTree = "<absolute>"; };
 		A65FC04B1E57B65700305C3E /* ulibsctp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ulibsctp.framework; path = /Library/Frameworks/ulibsctp.framework; sourceTree = "<absolute>"; };
