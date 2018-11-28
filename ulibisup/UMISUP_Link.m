@@ -12,32 +12,32 @@
 
 - (void)logDebug:(NSString *)s
 {
-    [logFeed debugText:s];
+    [self.logFeed debugText:s];
 }
 
 - (void)logWarning:(NSString *)s
 {
-    [logFeed warningText:s];
+    [self.logFeed warningText:s];
 }
 
 - (void)logInfo:(NSString *)s
 {
-    [logFeed infoText:s];
+    [self.logFeed infoText:s];
 }
 
 - (void) logPanic:(NSString *)s
 {
-    [logFeed panicText:s];
+    [self.logFeed panicText:s];
 }
 
 - (void)logMajorError:(NSString *)s
 {
-    [logFeed majorErrorText:s];
+    [self.logFeed majorErrorText:s];
 }
 
 - (void)logMinorError:(NSString *)s
 {
-    [logFeed majorErrorText:s];
+    [self.logFeed majorErrorText:s];
 }
 
 
