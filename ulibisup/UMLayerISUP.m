@@ -125,7 +125,7 @@
             mtp3 = [appContext getMTP3:mtp3_name];
             if(mtp3 == NULL)
             {
-                NSString *s = [NSString stringWithFormat:@"Can not find mtp3 layer '%@' referred from sccp '%@'",mtp3_name,layerName];
+                NSString *s = [NSString stringWithFormat:@"Can not find mtp3 layer '%@' referred from sccp '%@'",mtp3_name,self.layerName];
                 @throw([NSException exceptionWithName:[NSString stringWithFormat:@"CONFIG_ERROR FILE %s line:%ld",__FILE__,(long)__LINE__]
                                                reason:s
                                              userInfo:NULL]);
