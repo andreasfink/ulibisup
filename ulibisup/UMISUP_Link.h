@@ -14,7 +14,6 @@
 {
     NSString            *_name;
     UMLayerISUP __weak  *_isup;
-    UMLogFeed           *_logfeed;
     UMSynchronizedSortedDictionary *circuits;
     UMLogLevel          _logLevel;
 
