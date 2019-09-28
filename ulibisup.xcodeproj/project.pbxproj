@@ -242,6 +242,7 @@
 				TargetAttributes = {
 					A6BB5A3A1E57A0D500679A73 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2GSNWPNR77;
 						ProvisioningStyle = Automatic;
 					};
 					A6BB5A431E57A0D500679A73 = {
@@ -439,11 +440,11 @@
 		A6BB5A501E57A0D500679A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2GSNWPNR77;
 				DSTROOT = /;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -465,11 +466,11 @@
 		A6BB5A511E57A0D500679A73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2GSNWPNR77;
 				DSTROOT = /;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -491,6 +492,7 @@
 		A6BB5A531E57A0D500679A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2GSNWPNR77;
 				INFOPLIST_FILE = ulibisupTests/Info.plist;
@@ -503,6 +505,7 @@
 		A6BB5A541E57A0D500679A73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2GSNWPNR77;
 				INFOPLIST_FILE = ulibisupTests/Info.plist;
