@@ -48,6 +48,7 @@
                  ni:(int)ni
         linksetName:(NSString *)linksetName
             options:(NSDictionary *)options
+              ttmap:(UMMTP3TranslationTableMap *)map
 
 {
     UMISUP_mtpTransfer *task = [[UMISUP_mtpTransfer alloc]initForISUP:self
