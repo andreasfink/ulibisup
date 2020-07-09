@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A634105A24B723560044A2B6 /* VERSION */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 		A65FC02F1E57A40900305C3E /* UMLayerISUP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLayerISUP.h; sourceTree = "<group>"; };
 		A65FC0301E57A40900305C3E /* UMLayerISUP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLayerISUP.m; sourceTree = "<group>"; };
 		A65FC0331E57A47800305C3E /* UMLayerISUPApplicationContextProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLayerISUPApplicationContextProtocol.h; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		A6BB5A311E57A0D500679A73 = {
 			isa = PBXGroup;
 			children = (
+				A634105A24B723560044A2B6 /* VERSION */,
 				A65FC0471E57B64800305C3E /* Frameworks */,
 				A6BB5A3D1E57A0D500679A73 /* ulibisup */,
 				A6BB5A481E57A0D500679A73 /* ulibisupTests */,
