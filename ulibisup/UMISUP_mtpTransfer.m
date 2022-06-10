@@ -11,15 +11,15 @@
 
 @implementation UMISUP_mtpTransfer
 
-
 - (UMISUP_mtpTransfer *)initForISUP:(UMLayerISUP *)layer
                                mtp3:(UMLayerMTP3 *)mtp3
                                 opc:(UMMTP3PointCode *)xopc
                                 dpc:(UMMTP3PointCode *)xdpc
                                  si:(int)xsi
                                  ni:(int)xni
+                                sls:(int)xsls
                                data:(NSData *)xdata
-                            options:(NSDictionary *)xoptions;
+                            options:(NSDictionary *)xoptions
 {
     self = [super initWithName:@"UMISUP_mtpTransfer" receiver:layer sender:mtp3 requiresSynchronisation:NO];
     if(self)
@@ -28,6 +28,7 @@
         dpc = xdpc;
         si = xsi;
         ni = xni;
+        sls = xsls;
         data = xdata;
         options = xoptions;
         isupLayer = layer;

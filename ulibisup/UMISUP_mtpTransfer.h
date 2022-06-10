@@ -16,6 +16,7 @@
     NSData *data;
     int si;
     int ni;
+    int sls;
     UMMTP3PointCode *opc;
     UMMTP3PointCode *dpc;
     NSDictionary *options;
@@ -34,6 +35,7 @@
                                 dpc:(UMMTP3PointCode *)xdpc
                                  si:(int)xsi
                                  ni:(int)xni
+                                sls:(int)xsls
                                data:(NSData *)xdata
                             options:(NSDictionary *)xoptions;
 

@@ -46,19 +46,20 @@
                 dpc:(UMMTP3PointCode *)dpc
                  si:(int)si
                  ni:(int)ni
+                sls:(int)sls
         linksetName:(NSString *)linksetName
             options:(NSDictionary *)options
               ttmap:(UMMTP3TranslationTableMap *)map
-
 {
     UMISUP_mtpTransfer *task = [[UMISUP_mtpTransfer alloc]initForISUP:self
-                                                                   mtp3:mtp3Layer
-                                                                    opc:opc
-                                                                    dpc:dpc
-                                                                     si:si
-                                                                     ni:ni
-                                                                   data:data
-                                                                options:options];
+                                                                 mtp3:mtp3Layer
+                                                                  opc:opc
+                                                                  dpc:dpc
+                                                                   si:si
+                                                                   ni:ni
+                                                                  sls:sls
+                                                                 data:data
+                                                              options:options];
     [self queueFromLower:task];
 }
 
