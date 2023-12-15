@@ -16,6 +16,9 @@ BUILDNR
 make_buildnr.sh
 buildnumber.c
 buildnumber.h
+ulibisup.pc
+ulibisup.xcodeproj/project.pbxproj.bck
+ulibisup_config.h
 
 #########################
 # .gitignore file for Xcode4 and Xcode5 Source projects
